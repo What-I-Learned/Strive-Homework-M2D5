@@ -20,15 +20,19 @@ body{
     color: #696969;
 
 }
+.icons-right a{
+    margin: 0;
+    border: 1px solid #696969;
+    display: inline-block;
+    padding: 0 0.4em;
+    vertical-align: middle;
+    right: 0;
 
-.genresDrop{
-    background-color: black;
-    color: white;
-    border-radius: 0;
 }
-.genresDrop:hover, .genresDrop:active{
-    background-color: black !important;
-    border: 1px solid #696969 !important;
+
+h3{
+    padding-left: 0;
+    padding-right: 0;
 }
 /* 
 .container {
