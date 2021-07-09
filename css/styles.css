@@ -1,3 +1,7 @@
 .navbar-dark{
     background-color: #080808 !important;
 }
+
+.nav-size{
+    font-size: 1.1em;
+}
