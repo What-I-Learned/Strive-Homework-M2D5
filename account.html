@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">    
+    <link href="css/acc_style.css" rel="stylesheet">
     <title>Netflix</title>
   </head>
   <body>
@@ -19,7 +20,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav nav-size">
-          <li class="nav-item  mx-1 active">
+          <li class="nav-item  mx-1">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item mx-1">
@@ -60,6 +61,145 @@
               </div>
       </div>
     </nav>
+    <!-- ACCOUNT SECTION -->
+    <div class="container w-75 mt-5">
+      <h2 class="font-weight-light">Account</h2>
+      <hr>
+      <!-- membership -->
+      <div class="row">
+        <div class="col-4">
+          <h4 class="text-muted text-uppercase font-weight-light">membership & billing</h4>
+          <button class="cancel-butt ">Cancel Membership</button>
+        </div>
+        <div class="col-8">
+          <!-- pass phone email -->
+          <div class="row">
+            <div class="col-12 input-group justify-content-between">
+              <p class="font-weight-bold">student@strive.school</p> 
+              <a href="#">Change account email</a>
+            </div>
+            <div class="col-12 input-group justify-content-between">
+              <p class="text-muted">Password: <span>********</span></p>
+              <a href="#">Change password</a>
+            </div>
+            <div class="col-12 input-group justify-content-between">
+              <p class="text-muted">Phone: <span>321 044 1279</span></p>
+              <a href="#">Change phone number</a>
+            </div>
+          </div>
+          <hr>
+          <!-- plan details -->
+          <div class="row">
+            <div class="col-12 input-group justify-content-between">
+              <p class="font-weight-bold"><img src="assets/paypal-logo-black-and-white.png" style="max-width: 75px; vertical-align:top" alt="">
+                admin@strive.school</p>
+              <a href="#">Update payment info</a>
+            </div>
+            <!-- other -->
+            <div class="col-12 input-group">
+              <a class="ml-auto" href="#">Billing details</a>
+            </div>
+          </div>
+          <!-- Other -->
+          <hr>
+          <div class="row">
+            <div class="col-12 input-group">
+              <a class="ml-auto" href="#">Redeem gift card or promo code</a>
+            </div>
+            <div class="col-12 input-group">
+              <a class="ml-auto" href="#">Where to buy gift cards</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!-- Plan details -->
+      <div class="row">
+        <div class="col-4">
+          <h4 class="text-muted text-uppercase font-weight-light">plan details</h4>
+        </div>
+
+        <div class="col-8">
+          <div class="row">
+            <div class="col-12 input-group justify-content-between">
+              <p class="font-weight-bold">Premium <img src="assets/ultrahd.png" style="max-width: 75px; vertical-align:top" alt=""></p>
+              <a class="ml-auto" href="#">Change plan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SETTINGS -->
+      <hr>
+      <div class="row">
+        <div class="col-4">
+          <h4 class="text-muted text-uppercase font-weight-light">settings</h4>
+        </div>
+        <div class="col-8">
+          <div class="row">
+            <div class="col-12 input-group">
+              <a class="mr-auto" href="#">Parental controls</a>
+            </div>
+            <div class="col-12 input-group">
+              <a class="mr-auto" href="#">Test participation</a>
+            </div>
+            <div class="col-12 input-group">
+              <a class="mr-auto" href="#">Manage download devices</a>
+            </div>
+            <div class="col-12 input-group">
+              <a class="mr-auto" href="#">Activate a device</a>
+            </div>
+            <div class="col-12 input-group">
+              <a class="mr-auto" href="#">Recent device streaming activity</a>
+            </div>
+            <div class="col-12 input-group">
+              <a class="mr-auto" href="#">Sighn out of all devices</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MY PROFILE -->
+      <hr>
+      <div class="row">
+        <div class="col-4">
+          <h4 class="text-muted text-uppercase font-weight-light">my profile</h4>
+        </div>
+        
+        <!-- right section -->
+        <div class="col-8">
+          <div class="row">
+            <div class="col-12 input-group justify-content-between mb-n3">
+              <p class="font-weight-bold"><img class="mr-2" src="assets/avatar.png" style="max-width: 30px; vertical-align:top" alt=""> Strive Student</p>
+              <a href="#">Manage profiles</a>
+            </div>
+
+            <div class="col-12 input-group">
+              <a class="ml-auto" href="#">Add profile email</a>
+            </div>
+
+            <div class="col-12">
+              <div class="row mt-3">
+                <div class="col-6">
+                  <a href="#">Language</a>
+                </div>
+                <div class="col-6">
+                  <a href="#">Viewing activity</a>
+                </div>
+                <div class="col-6">
+                  <a href="#">Playback settings</a>
+                </div>
+                <div class="col-6">
+                  <a href="#">Ratings</a>
+                </div>
+                <div class="col-6">
+                  <a href="#">Subtitle apperance</a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
