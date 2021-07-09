@@ -40,6 +40,9 @@ body{
     font-size: 10px;
 }
 #para{
-    text-align: center;
+    text-align: justify;
     
+}
+#hline{
+    color: white;
 }
